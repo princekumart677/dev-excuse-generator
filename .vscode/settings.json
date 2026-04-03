@@ -1,0 +1,14 @@
+{
+  "chat.commandCenter.enabled": true,
+  "[mcp]": {
+    "mcpServers": {
+      "notebooklm": {
+        "command": "npx",
+        "args": ["@notebooklm/mcp-server"],
+        "env": {
+          "NOTEBOOK_API_KEY": "${env:NOTEBOOK_API_KEY}"
+        }
+      }
+    }
+  }
+}
